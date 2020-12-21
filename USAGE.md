@@ -1,6 +1,6 @@
 # NAME
 
-    MySQLTuner 1.7.14 - MySQL High Performance Tuning Script
+    MySQLTuner 1.7.15 - MySQL High Performance Tuning Script
 
 # IMPORTANT USAGE GUIDELINES
 
@@ -53,7 +53,6 @@ You must provide the remote server's total memory when connecting to other serve
     --pfstat                    Print Performance schema
     --nopfstat                  Don't Print Performance schema
     --verbose                   Prints out all options (default: no verbose, dbstat, idxstat, sysstat, tbstat, pfstat)
-     
     --bannedports               Ports banned separated by comma(,)
     --maxportallowed            Number of ports opened allowed on this hosts
     --cvefile <path>            CVE File for vulnerability checks
@@ -119,7 +118,7 @@ Major Hayden - major@mhtx.net
 
 # SUPPORT
 
-Bug reports, feature requests, and downloads at http://mysqltuner.com/
+Bug reports, feature requests, and downloads at http://mysqltuner.pl/
 
 Bug tracker can be found at https://github.com/major/MySQLTuner-perl/issues
 
@@ -133,11 +132,11 @@ Maintained by Major Hayden (major\\@mhtx.net) - Licensed under GPL
 
 # COPYRIGHT AND LICENSE
 
-Copyright (C) 2006-2017 Major Hayden - major@mhtx.net
+Copyright (C) 2006-2018 Major Hayden - major@mhtx.net
 
-For the latest updates, please visit http://mysqltuner.com/
+For the latest updates, please visit http://mysqltuner.pl/
 
-Git repository available at http://github.com/major/MySQLTuner-perl
+Git repository available at https://github.com/major/MySQLTuner-perl
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -151,4 +150,4 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
     See the GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
+along with this program.  If not, see &lt;https://www.gnu.org/licenses/>.
